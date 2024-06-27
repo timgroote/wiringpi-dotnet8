@@ -17,6 +17,7 @@ I unfortunately do not have the time to take up maintaining unosquare.wiringpi, 
 Since the dotnet IOT libraries did not lead to much success, i have made this repository so i could keep using wiringpi in my dotnet projects.
 In its current state, the library seems on par with where Unosquare left off.
 HOWEVER i can not test if it is 100% functional. Your mileage may vary.
+I have also consolidated all related projects into this one repository, and they directly reference each other rather than relying on a published NuGet package.
 
 In order to use this lib, clone the repository and build NuGet packages, then import those where needed.
 Because i did not want to interfere with / make a mess of existing projects that use UnoSquare.WiringPi, i have prefixed all namespaces with "TGR."
