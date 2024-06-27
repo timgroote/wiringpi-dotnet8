@@ -1,4 +1,4 @@
-﻿namespace Unosquare.WiringPi
+﻿namespace TGR.Unosquare.WiringPi
 {
     using Native;
     using RaspberryIO.Abstractions;

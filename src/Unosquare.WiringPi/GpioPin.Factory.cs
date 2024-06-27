@@ -1,7 +1,7 @@
-﻿namespace Unosquare.WiringPi
+﻿namespace TGR.Unosquare.WiringPi
 {
-    using RaspberryIO.Abstractions;
     using System;
+    using TGR.Unosquare.RaspberryIO.Abstractions;
 
     public partial class GpioPin
     {

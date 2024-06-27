@@ -1,7 +1,7 @@
-﻿namespace Unosquare.WiringPi
+﻿namespace TGR.Unosquare.WiringPi
 {
-    using RaspberryIO.Abstractions;
     using Swan.DependencyInjection;
+    using TGR.Unosquare.RaspberryIO.Abstractions;
 
     /// <summary>
     /// Represents the Bootstrap class to extract resources.

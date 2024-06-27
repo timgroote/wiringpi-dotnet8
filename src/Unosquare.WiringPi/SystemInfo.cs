@@ -1,8 +1,8 @@
-﻿namespace Unosquare.WiringPi
+﻿namespace TGR.Unosquare.WiringPi
 {
     using Native;
-    using RaspberryIO.Abstractions;
     using System;
+    using TGR.Unosquare.RaspberryIO.Abstractions;
 
     /// <summary>
     /// Represents the WiringPi system info.

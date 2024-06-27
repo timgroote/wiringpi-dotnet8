@@ -1,7 +1,7 @@
-﻿namespace Unosquare.WiringPi
+﻿namespace TGR.Unosquare.WiringPi
 {
     using Native;
-    using RaspberryIO.Abstractions;
+    using TGR.Unosquare.RaspberryIO.Abstractions;
 
     /// <summary>
     /// Provides access to timing and threading properties and methods.

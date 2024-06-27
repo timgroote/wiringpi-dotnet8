@@ -1,4 +1,4 @@
-﻿namespace Unosquare.WiringPi.Native
+﻿namespace TGR.Unosquare.WiringPi.Native
 {
     using System;
     using System.Runtime.InteropServices;

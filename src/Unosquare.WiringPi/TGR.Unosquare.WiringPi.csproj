@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>This library uses WiringPi to enables developers to use the various Raspberry Pi's hardware modules including the Camera to capture images and video, the GPIO pins, and both, the SPI and I2C buses.</Description>
+    <Copyright>TGR (c) 2024</Copyright>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AssemblyName>TGR.Unosquare.WiringPi</AssemblyName>
+    <PackageId>TGR.Unosquare.WiringPi</PackageId>
+    <Version>0.6.0</Version>
+    <Authors>TGR</Authors>
+    <PackageIconUrl>https://github.com/timgroote/wiringpi-dotnet8/raw/master/logos/raspberryio-logo-32.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/timgroote/wiringpi-dotnet8</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/timgroote/wiringpi-dotnet8/master/LICENSE</PackageLicenseUrl>
+    <PackageTags>Raspberry Pi GPIO Camera SPI I2C Embedded IoT Mono C# .NET wiringPi 64bit</PackageTags>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\gpio" />
+    <EmbeddedResource Include="Resources\libwiringPi.so.3.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+  <PackageReference Include="Unosquare.Swan" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Unosquare.RaspberryIO\TGR.Unosquare.RaspberryIO.csproj" />
+  </ItemGroup>
+</Project>

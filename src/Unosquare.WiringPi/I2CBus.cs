@@ -1,10 +1,10 @@
-﻿namespace Unosquare.WiringPi
+﻿namespace TGR.Unosquare.WiringPi
 {
     using Native;
-    using RaspberryIO.Abstractions;
     using System.Collections.Generic;
     using System.Collections.ObjectModel;
     using System.Linq;
+    using TGR.Unosquare.RaspberryIO.Abstractions;
 
     /// <inheritdoc />
     /// <summary>

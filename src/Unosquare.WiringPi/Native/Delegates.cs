@@ -1,4 +1,4 @@
-﻿namespace Unosquare.WiringPi.Native
+﻿namespace TGR.Unosquare.WiringPi.Native
 {
     /// <summary>
     /// A delegate defining a callback for an Interrupt Service Routine.

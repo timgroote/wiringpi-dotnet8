@@ -1,10 +1,10 @@
-﻿namespace Unosquare.WiringPi
+﻿namespace TGR.Unosquare.WiringPi
 {
     using Native;
-    using RaspberryIO.Abstractions;
-    using RaspberryIO.Abstractions.Native;
     using System;
     using System.Threading.Tasks;
+    using TGR.Unosquare.RaspberryIO.Abstractions;
+    using TGR.Unosquare.RaspberryIO.Abstractions.Native;
 
     /// <summary>
     /// Represents a device on the I2C Bus.

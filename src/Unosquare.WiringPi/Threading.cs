@@ -1,10 +1,10 @@
-﻿namespace Unosquare.WiringPi
+﻿namespace TGR.Unosquare.WiringPi
 {
     using Native;
-    using RaspberryIO.Abstractions;
-    using RaspberryIO.Abstractions.Native;
     using Swan;
     using System;
+    using TGR.Unosquare.RaspberryIO.Abstractions;
+    using TGR.Unosquare.RaspberryIO.Abstractions.Native;
 
     /// <summary>
     /// Use this class to access threading methods using interop.

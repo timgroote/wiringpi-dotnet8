@@ -1,4 +1,4 @@
-﻿namespace Unosquare.WiringPi.Resources
+﻿namespace TGR.Unosquare.WiringPi.Resources
 {
     using Native;
     using System;

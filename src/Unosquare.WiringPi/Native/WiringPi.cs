@@ -1,4 +1,4 @@
-﻿namespace Unosquare.WiringPi.Native
+﻿namespace TGR.Unosquare.WiringPi.Native
 {
     using System.Runtime.InteropServices;
 
@@ -9,7 +9,7 @@
     /// </summary>
     public partial class WiringPi
     {
-        internal const string WiringPiLibrary = "libwiringPi.so.2.52";
+        internal const string WiringPiLibrary = "libwiringPi.so.3.6";
 
         #region WiringPi - Core Functions (https://github.com/WiringPi/WiringPi/blob/master/wiringPi/wiringPi.h)
 

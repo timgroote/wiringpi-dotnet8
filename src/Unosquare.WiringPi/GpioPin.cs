@@ -1,12 +1,12 @@
-﻿namespace Unosquare.WiringPi
+﻿namespace TGR.Unosquare.WiringPi
 {
     using System;
     using System.Threading.Tasks;
     using Native;
-    using RaspberryIO.Abstractions;
-    using RaspberryIO.Abstractions.Native;
     using Swan.Diagnostics;
-    using Definitions = RaspberryIO.Abstractions.Definitions;
+    using TGR.Unosquare.RaspberryIO.Abstractions;
+    using TGR.Unosquare.RaspberryIO.Abstractions.Native;
+    using Definitions = TGR.Unosquare.RaspberryIO.Abstractions.Definitions;
 
     /// <summary>
     /// Represents a GPIO Pin, its location and its capabilities.

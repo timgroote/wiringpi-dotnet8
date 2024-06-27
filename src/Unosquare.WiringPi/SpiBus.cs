@@ -1,7 +1,7 @@
-﻿namespace Unosquare.WiringPi
-{
-    using RaspberryIO.Abstractions;
+﻿using TGR.Unosquare.RaspberryIO.Abstractions;
 
+namespace TGR.Unosquare.WiringPi
+{
     /// <summary>
     /// The SPI Bus containing the 2 SPI channels.
     /// </summary>

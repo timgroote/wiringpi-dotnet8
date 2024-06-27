@@ -1,10 +1,10 @@
-﻿namespace Unosquare.RaspberryIO.Peripherals
+﻿using System;
+using TGR.Unosquare.RaspberryIO.Abstractions;
+using Swan;
+using TGR.Unosquare.WiringPi;
+
+namespace TGR.Unosquare.RaspberryIO.Peripherals
 {
-    using System;
-    using Abstractions;
-    using Swan;
-    using WiringPi;
-    
     /// <summary>
     /// Represents a standard 50hz pulse-controlled servo using Hardware-assited PWM.
     /// Maximum duty cycle is ~25% = 20ms x .25 = 5ms max pulse width.

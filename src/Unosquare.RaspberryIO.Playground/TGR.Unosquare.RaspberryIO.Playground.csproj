@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <RuntimeIdentifier>linux-arm</RuntimeIdentifier>
+    <SelfContained>false</SelfContained>
+    <AssemblyName>TGR.Unosquare.RaspberryIO.Playground</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>TGR.Unosquare.RaspberryIO.Playground</PackageId>
+    <CodeAnalysisRuleSet>..\..\StyleCop.Analyzers.ruleset</CodeAnalysisRuleSet>
+    <LangVersion>8.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="fractal.jpg;spectrum.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Unosquare.RaspberryIO.Peripherals\TGR.Unosquare.RaspberryIO.Peripherals.csproj" />
+    <ProjectReference Include="..\Unosquare.WiringPi\TGR.Unosquare.WiringPi.csproj" />
+  </ItemGroup>
+</Project>

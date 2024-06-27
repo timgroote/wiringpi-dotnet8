@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>The Raspberry Pi's IO Functionality in an easy-to use API for Mono/.NET Core
+
+This library enables developers to use the various Raspberry Pi's hardware modules including the Camera to capture images and video, the GPIO pins, and both, the SPI and I2C buses.</Description>
+    <Copyright>TGR (c) 2024</Copyright>
+    <AssemblyTitle>TGR revised Unosquare Raspberry Abstractions</AssemblyTitle>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AssemblyName>TGR.Unosquare.Raspberry.Abstractions</AssemblyName>
+    <PackageId>TGR.Unosquare.Raspberry.Abstractions</PackageId>
+    <Version>0.5</Version>
+    <Authors>TGR</Authors>
+    <PackageIconUrl>https://github.com/unosquare/raspberryio/raw/master/logos/raspberryio-logo-32.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/unosquare/raspberryio</PackageProjectUrl>
+    <PackageLicense>https://raw.githubusercontent.com/unosquare/raspberryio/master/LICENSE</PackageLicense>
+    <PackageTags>Raspberry Pi GPIO Camera SPI I2C Embedded IoT Mono C# .NET</PackageTags>
+    <LangVersion>8.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+  </ItemGroup>
+</Project>
