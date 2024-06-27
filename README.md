@@ -18,6 +18,7 @@ Since the dotnet IOT libraries did not lead to much success, i have made this re
 In its current state, the library seems on par with where Unosquare left off.
 HOWEVER i can not test if it is 100% functional. Your mileage may vary.
 I have also consolidated all related projects into this one repository, and they directly reference each other rather than relying on a published NuGet package.
+This means that the abstractions package that can be used to directly address devices _is also in this repository_.
 
 In order to use this lib, clone the repository and build NuGet packages, then import those where needed.
 Because i did not want to interfere with / make a mess of existing projects that use UnoSquare.WiringPi, i have prefixed all namespaces with "TGR."
@@ -31,19 +32,8 @@ The default low-level provider is the wonderful ```WiringPi``` library available
 
 ## Installation
 
-Install basic Raspberry.IO package:
-[![NuGet version](https://badge.fury.io/nu/Unosquare.Raspberry.IO.svg)](https://badge.fury.io/nu/Unosquare.Raspberry.IO)
-
-```
-PM> Install-Package Unosquare.Raspberry.IO
-```
-
-Install WiringPi implementation:
-[![NuGet version](https://badge.fury.io/nu/Unosquare.wiringpi.svg)](https://badge.fury.io/nu/Unosquare.wiringpi)
-
-```
-PM> Install-Package Unosquare.WiringPi
-```
+Clone the repository and build NuGet packages to a local folder, then import those where needed.
+You can add a local folder as a package source in Visual Studio.
 
 ## Obtaining Board and System Information
 ```RaspberryIO``` contains useful utilities to obtain information about the board it is running on. You can simply call the ```Pi.Info.ToString()``` method to obtain a dump of all system properties as a single ```string```, or you can use the individual properties such as Installed RAM, Processor Count, Raspberry Pi Version, Serial Number, etc. There's not a lot more to this.
@@ -105,12 +95,3 @@ public static void TestLedBlinking()
 }
 ```
 
-## Related Projects and Nugets
-| Name | Author | Description |
-| ---- | ------ | ----------- |
-| [RaspberryIO](https://github.com/unosquare/raspberryio) | [Unosquare](https://github.com/unosquare) | The Raspberry Pi's IO Functionality in an easy-to-use API for .NET (Mono/.NET Core). |
-| [PiGpio.net](https://github.com/unosquare/pigpio-dotnet) | [Unosquare](https://github.com/unosquare) | Provides complete managed access to the popular pigpio C library |
-| [Raspberry Abstractions](https://www.nuget.org/packages/Unosquare.Raspberry.Abstractions) | [Unosquare](https://www.nuget.org/profiles/Unosquare) | Allows you to implement your own provider for RaspberryIO. |
-| [Raspberry# IO](https://github.com/raspberry-sharp/raspberry-sharp-io) | [raspberry-sharp](https://github.com/raspberry-sharp) | Raspberry# IO is a .NET/Mono IO Library for Raspberry Pi. This project is an initiative of the [Raspberry#](http://www.raspberry-sharp.org/) Community. |
-| [WiringPi.Net](https://github.com/danriches/WiringPi.Net) | [Daniel Riches](https://github.com/danriches) | A simple C# wrapper for Gordon's WiringPi library. |
-| [PiSharp](https://github.com/andycb/PiSharp) |[Andy Bradford](https://github.com/andycb) | Pi# is a library to expose the GPIO functionality of the Raspberry Pi computer to the C# and Visual Basic.Net languages |
