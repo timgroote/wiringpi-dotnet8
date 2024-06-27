@@ -20,7 +20,8 @@ HOWEVER i can not test if it is 100% functional. Your mileage may vary.
 I have also consolidated all related projects into this one repository, and they directly reference each other rather than relying on a published NuGet package.
 This means that the abstractions package that can be used to directly address devices _is also in this repository_.
 
-In order to use this lib, clone the repository and build NuGet packages, then import those where needed.
+In order to use this lib, download the nuget packages from "releases" into a local folder, or clone the repository and build NuGet packages.
+Then import those where needed.
 Because i did not want to interfere with / make a mess of existing projects that use UnoSquare.WiringPi, i have prefixed all namespaces with "TGR."
 When upgrading or writing, in almost all cases, simply prefixing the Unosquare namespace with TGR (TGR.UnoSquare.WiringPi etc) should suffice.
 
