@@ -1,10 +1,24 @@
-**THIS REPORT HAS BEEN ARCHIVED**
-
-[![Build status](https://ci.appveyor.com/api/projects/status/396f8xpnuj2qq4f1/branch/master?svg=true)](https://ci.appveyor.com/project/geoperez/wiringpi-dotnet/branch/master)
-
-# <img src="https://raw.githubusercontent.com/unosquare/wiringpi-dotnet/master/logos/raspberryio-logo-32.png" alt="wiringpi-dotnet" style="width:16px; height:16px" /> wiringpi-dotnet
+# <img src="https://raw.githubusercontent.com/timgroote/wiringpi-dotnet8/master/logos/raspberryio-logo-32.png" alt="wiringpi-dotnet" style="width:16px; height:16px" />  A long overdue update to UnoSquare's WiringPi-dotnet
 
 *:star: Please star this project if you find it useful!*
+
+----------------
+
+## IMPORTANT
+please read.
+
+Because Unosquare have retired their wiringpi project, this repository contains a consolidated collection of all packages needed to use GPIO from dotnet on a _64 bit_ OS on Raspberry Pi
+And packages it so it can be used from dotnet 8.
+
+It uses a recent version of the WiringPi library https://github.com/WiringPi/WiringPi
+and comes with 64 bit bindings for WiringPi in its libwiringpi.so
+
+I unfortunately do not have the time to take up maintaining wiringpi, but i rely on it for some projects.
+Since the dotnet IOT libraries did not lead to much success, i have made this repository so i could keep using wiringpi in my dotnet projects.
+In its current state, the library seems on par with where Unosquare left off.
+HOWEVER i can not test if it is 100% functional. Your mileage may vary.
+
+----------------
 
 Provides complete managed access to the popular wiringpi C library
 
