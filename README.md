@@ -29,7 +29,7 @@ When upgrading or writing, in almost all cases, simply prefixing the Unosquare n
 
 Provides complete managed access to the popular wiringpi C library
 
-The default low-level provider is the wonderful ```WiringPi``` library available [here]([http://wiringpi.com/](https://github.com/WiringPi/WiringPi). You do not need to install this library yourself. The ```TGR.Unosquare.WiringPi``` assembly will automatically extract the compiled binary of the library in the same path as the entry assembly.
+The default low-level provider is the wonderful ```WiringPi``` library available at https://github.com/WiringPi/WiringPi. You do not need to install this library yourself. The ```TGR.Unosquare.WiringPi``` assembly will automatically extract the compiled binary of the library in the same path as the entry assembly.
 
 ## Installation
 
